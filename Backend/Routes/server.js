@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 const app = express();
 
-const mongoUrl = "mongodb+srv://XharkTank:XharkTank07@cluster0.diwtok4.mongodb.net/xharktank?retryWrites=true&w=majority";
+const mongoUrl = "Place your URL here";
 mongoose.connect(mongoUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true
